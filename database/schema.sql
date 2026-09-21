@@ -71,10 +71,10 @@ CREATE TABLE IF NOT EXISTS complaints (
     FOREIGN KEY (head_id)         REFERENCES department_heads(head_id)
 );
 
-CREATE INDEX IF NOT EXISTS idx_complaints_register ON complaints(register_number);
-CREATE INDEX IF NOT EXISTS idx_complaints_status    ON complaints(status);
-CREATE INDEX IF NOT EXISTS idx_complaints_dept      ON complaints(department_id);
-CREATE INDEX IF NOT EXISTS idx_complaints_head      ON complaints(head_id);
+CREATE INDEX idx_complaints_register ON complaints(register_number);
+CREATE INDEX idx_complaints_status    ON complaints(status);
+CREATE INDEX idx_complaints_dept      ON complaints(department_id);
+CREATE INDEX idx_complaints_head      ON complaints(head_id);
 
 -- ─────────────────────────────────────────────────────────────────
 -- Table: complaint_updates  (audit trail)

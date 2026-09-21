@@ -9,5 +9,5 @@ class Config:
     MYSQL_HOST = "localhost"
     MYSQL_PORT = 3306
     MYSQL_USER = "root"
-    MYSQL_PASSWORD = "your_mysql_password_here"   # <-- CHANGE THIS
+    MYSQL_PASSWORD = "WJ28@krhps"
     MYSQL_DATABASE = "smart_campus_complaint"
